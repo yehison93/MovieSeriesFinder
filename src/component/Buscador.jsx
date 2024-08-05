@@ -1,10 +1,20 @@
-import { Card, Form } from "react-bootstrap";
+import { Badge, Card, Form } from "react-bootstrap";
 
 const Buscador = ({ input, onChange }) => {
   return (
     <Card className="d-flex row align-items-center justify-content-center">
       <Card.Header>
-        <Card.Title>Buscador de Peliculas</Card.Title>
+        <Card.Title className="text-center">
+          <h1
+            style={{
+              backgroundColor: "var(--background-body)",
+              color: "var(--text-bright)",
+              borderRadius: "5px",
+            }}
+          >
+            MovieSeriesFinder
+          </h1>
+        </Card.Title>
       </Card.Header>
       <Card.Body>
         <Form>

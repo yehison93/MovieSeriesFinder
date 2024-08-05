@@ -30,7 +30,8 @@ const DisplayPeliculas = ({ search, input }) => {
                 <Card.Title>
                   {`${
                     search.original_title || search.original_name || search.name
-                  } `}{" "}
+                  } `}
+                  <br />
                   <span className="text-muted fs-6">{`(${
                     search.media_type || input.type
                   })`}</span>
