@@ -1,4 +1,5 @@
-import { Badge, Card, Form } from "react-bootstrap";
+/* eslint-disable react/prop-types */
+import { Card, Form } from "react-bootstrap";
 
 const Buscador = ({ input, onChange }) => {
   return (
