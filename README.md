@@ -1,25 +1,27 @@
-# Movies Series Finder
+# MovieSeriesFinder
 ==========================
 
 ## Descripción
 ---------------
 
-Movies Series Finder es una aplicación web que te permite buscar y encontrar películas y series de televisión de manera fácil y rápida.
+MovieSeriesFinder es una aplicación web que te permite buscar y encontrar películas y series de televisión de manera fácil y rápida. También puede mostrar personajes y colecciones.
 
 ## Funcionalidades
 -------------------
 
 * Buscador de películas y series de televisión
 * Información detallada de cada título, incluyendo sinopsis, géneros, actores y más
-* Enlaces a plataformas de streaming para ver los títulos online
+* Búsqueda en tiempo real sin refrescar la página
 
 ## Tecnologías utilizadas
 ---------------------------
 
-* HTML5
-* CSS3
-* JavaScript
-* [Netlify](https://www.netlify.com/) para el despliegue y hosting
+* React
+* CSS
+* HTML
+* Vite
+* Bootstrap
+* TMDB (The Movie Data Base) API
 
 ## Instalación y uso
 ---------------------
@@ -44,3 +46,14 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 * A [Netlify](https://www.netlify.com/) por el hosting y despliegue de la aplicación
 * A [The Movie Database (TMDb)](https://www.themoviedb.org/) por la API de películas y series de televisión
+
+## Autor
+---------
+
+* Yehison Perdomo
+
+## Enlaces
+---------
+
+* [Repositorio en GitHub](https://github.com/yehison93/MovieSeriesFinder)
+* [Aplicación en Netlify](https://movieseriesfinder.netlify.app/)
